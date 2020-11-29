@@ -1,11 +1,11 @@
 ---
 title: 'Welcome Bee starter'
 date: 2020-07-04 12:21:13
-category: '현무암판석'
+featuredImage: "./images/hello.png"
+category: 'welcome'
 draft: false
 ---
 
-![](./images/hello.png)
 
 Welcome, Gatsby! This starter is full-package for your new blog!
 
@@ -15,7 +15,7 @@ Welcome, Gatsby! This starter is full-package for your new blog!
 ---
 title: 'Welcome Bee starter'
 date: 2019-2-6 16:21:13
-category: '현무암판석'
+category: 'welcome'
 draft: false
 ---
 ```

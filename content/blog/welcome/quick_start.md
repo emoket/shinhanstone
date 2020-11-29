@@ -1,7 +1,8 @@
 ---
 title: 'Quick Start'
 date: 2020-07-05 17:21:13
-category: '현무암판석'
+featuredImage: './images/code_example.png'
+category: 'welcome'
 draft: false
 ---
 

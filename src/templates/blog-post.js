@@ -10,6 +10,7 @@ import { PostContainer } from '../components/post-container'
 import { SocialShare } from '../components/social-share'
 import { SponsorButton } from '../components/sponsor-button'
 import { Bio } from '../components/bio'
+import Img from 'gatsby-image'
 import { PostNavigator } from '../components/post-navigator'
 import { Disqus } from '../components/disqus'
 import { Utterances } from '../components/utterances'
@@ -35,6 +36,7 @@ export default ({ data, pageContext, location }) => {
       <Head title={postTitle} description={post.excerpt} />
       <PostTitle title={postTitle} />
       <PostDate date={date} />
+      <Img sizes={post.frontmatter.featuredImage.childImageSharp.sizes} />
       <PostContainer html={post.html} />
       <SocialShare title={postTitle} author={author} />
       {!!sponsor.buyMeACoffeeId && (
@@ -78,7 +80,14 @@ export const pageQuery = graphql`
       html
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date(formatString: "YYYY.MM.DD")
+        featuredImage {
+          childImageSharp{
+              sizes(maxWidth: 630) {
+                  ...GatsbyImageSharpSizes
+              }
+          }
+      }
       }
     }
   }

@@ -88,6 +88,13 @@ export const pageQuery = graphql`
             title
             category
             draft
+            featuredImage {
+              childImageSharp{
+                  sizes(maxWidth: 630) {
+                      ...GatsbyImageSharpSizes
+                  }
+              }
+          }
           }
         }
       }
