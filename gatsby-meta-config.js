@@ -1,9 +1,9 @@
 module.exports = {
-  title: `Bee starter`,
-  description: `Blog posted about ...`,
-  author: `[Your Name]`,
-  introduction: `I explain with words and code. I explain with words and code. I explain with words and code.`,
-  siteUrl: `https://gatsby-starter-bee.netlify.com`, // Your blog site url
+  title: `신한스톤`,
+  description: `신한스톤 제품 소개 사이트`,
+  author: `shinhanstone`,
+  introduction: `신한스톤을 찾아주셔서 감사합니다. 현무암 디딤석, 외장재 등 도매가로 취급하고 있습니다.`,
+  siteUrl: `https://shinhanstone.netlify.com`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: ``, // Your GitHub account
@@ -26,5 +26,5 @@ module.exports = {
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
   },
-  ga: '', // Add your google analytics tranking ID
+  ga: '1234', // Add your google analytics tranking ID
 }
