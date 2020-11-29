@@ -38,10 +38,10 @@ export default ({ data, pageContext, location }) => {
       <PostDate date={date} />
       <Img sizes={post.frontmatter.featuredImage.childImageSharp.sizes} />
       <PostContainer html={post.html} />
-      <SocialShare title={postTitle} author={author} />
+      {/* <SocialShare title={postTitle} author={author} />
       {!!sponsor.buyMeACoffeeId && (
         <SponsorButton sponsorId={sponsor.buyMeACoffeeId} />
-      )}
+      )} */}
       <Elements.Hr />
       <Bio />
       <PostNavigator pageContext={pageContext} />
