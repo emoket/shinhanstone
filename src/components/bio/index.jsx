@@ -24,7 +24,8 @@ export const Bio = () => (
               />
               <div className="author-name">
                 {/* <span className="author-name-prefix">Written by</span> */}
-                <Link to={'/about'} className="author-name-content">🏢 기업소개</Link>
+                {/* <Link to={'/about'} className="author-name-content">🏢 기업소개</Link> */}
+                <a href="https://smartstore.naver.com/shstone" target="_blank" className="author-name-content">🧺 스토어</a>
                 <a href="tel:031-765-4723" className="author-name-content">📞 전화문의</a>
                 <a href="mailto:shstonekr@naver.com?subject=제품문의" className="author-name-content">📧 메일문의</a>
 
