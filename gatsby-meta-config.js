@@ -3,7 +3,7 @@ module.exports = {
   description: `신한스톤 제품 소개 사이트`,
   author: `shinhanstone`,
   introduction: `신한스톤을 찾아주셔서 감사합니다. 현무암 디딤석, 외장재 등 도매가로 취급하고 있습니다.`,
-  siteUrl: `https://shinhanstone.netlify.com`, // Your blog site url
+  siteUrl: `https://www.stoneworld.kr`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: ``, // Your GitHub account
