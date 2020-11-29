@@ -28,9 +28,10 @@ export const Bio = () => (
                 <a href="https://smartstore.naver.com/shstone" target="_blank" className="author-name-content">🧺 네이버 스토어</a>
                 <a href="tel:031-765-4723" className="author-name-content">📞 전화문의</a>
                 <a href="mailto:shstonekr@naver.com?subject=제품문의" className="author-name-content">📧 메일문의</a>
-                <a href="https://map.naver.com/v5/entry/place/19699978?c=14171022.5553446,4491796.8862785,15,0,0,0,dh&placePath=%2Fhome%3Fentry=plt" target="_blank" className="author-name-content">🗺️ 지도보기</a>
+                <div>📠 031-765-4724</div>
+                <div>🗺️ 경기도 광주시 초월읍 장담길 88-4 <span><a href="https://map.naver.com/v5/entry/place/19699978?c=14171022.5553446,4491796.8862785,15,0,0,0,dh&placePath=%2Fhome%3Fentry=plt" target="_blank" className="author-name-content">🗺️ 지도보기</a></span></div>
 
-                <div className="author-introduction">{introduction}</div>
+                {/* <div className="author-introduction">{introduction}</div> */}
                 <p className="author-socials">
                   {social.github && (
                     <a href={`https://github.com/${social.github}`}>GitHub</a>
