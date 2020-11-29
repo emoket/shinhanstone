@@ -2,7 +2,7 @@ module.exports = {
   title: `신한스톤`,
   description: `신한스톤 제품 소개 사이트`,
   author: `shinhanstone`,
-  introduction: `신한스톤을 찾아주셔서 감사합니다. 현무암 디딤석, 외장재 등 도매가로 취급하고 있습니다.`,
+  introduction: `돌의 무한한 가치를 아는 기업, 신한스톤을 찾아 주셔서 감사합니다. 천연석 시공 및 컨설팅, 화산석/현무암/대리석 등 수입 대행 업무를 수행합니다.`,
   siteUrl: `https://www.stoneworld.kr`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
