@@ -36,7 +36,7 @@ export default ({ data, pageContext, location }) => {
       <Head title={postTitle} description={post.excerpt} />
       <PostTitle title={postTitle} />
       <PostDate date={date} />
-      <Img sizes={post.frontmatter.featuredImage.childImageSharp.sizes} />
+      {/* <Img fluid={post.frontmatter.featuredImage.childImageSharp.sizes} /> */}
       <PostContainer html={post.html} />
       {/* <SocialShare title={postTitle} author={author} />
       {!!sponsor.buyMeACoffeeId && (
