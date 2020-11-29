@@ -12,7 +12,7 @@ module.exports = {
     linkedin: ``, // Your LinkedIn account
   },
   icon: `content/assets/felog.png`, // Add your favicon
-  keywords: [`blog`],
+  keywords: [`blog`,`stone`,`돌`,`석재`,`디딤석`,`현무암`,`내장재`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
     utterances: '', // Your repository for archive comment
@@ -21,7 +21,7 @@ module.exports = {
     countOfInitialPost: 10, // Config your initial count of post
   },
   sponsor: {
-    buyMeACoffeeId: 'jbee',
+    buyMeACoffeeId: '',
   },
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
