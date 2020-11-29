@@ -11,7 +11,7 @@ module.exports = {
     facebook: ``, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
   },
-  icon: `content/assets/felog.png`, // Add your favicon
+  icon: `content/assets/stone.png`, // Add your favicon
   keywords: [`현무암부정형`,`현무암디딤석`,`현무암판재`,`현무암맷돌`,`조경디딤석`,`정원디딤석`,`판재`,`디딤석`,`부정형`],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
