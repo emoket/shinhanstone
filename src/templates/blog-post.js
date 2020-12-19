@@ -83,11 +83,11 @@ export const pageQuery = graphql`
         date(formatString: "YYYY.MM.DD")
         featuredImage {
           childImageSharp{
-              sizes(maxWidth: 630) {
-                  ...GatsbyImageSharpSizes
-              }
+            sizes(maxWidth: 630) {
+              ...GatsbyImageSharpSizes
+            }
           }
-      }
+        }
       }
     }
   }

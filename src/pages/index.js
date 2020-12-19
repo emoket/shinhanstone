@@ -90,9 +90,9 @@ export const pageQuery = graphql`
             draft
             featuredImage {
               childImageSharp{
-                  sizes(maxWidth: 630) {
-                      ...GatsbyImageSharpSizes
-                  }
+                sizes(maxWidth: 630) {
+                  ...GatsbyImageSharpSizes
+                }
               }
             }
           }
