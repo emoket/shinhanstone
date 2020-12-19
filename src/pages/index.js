@@ -84,12 +84,12 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
             title
             category
             draft
+            date(formatString: "YYYY.MM.DD")
             featuredImage {
-              childImageSharp{
+              childImageSharp {
                 sizes(maxWidth: 630) {
                   ...GatsbyImageSharpSizes
                 }
